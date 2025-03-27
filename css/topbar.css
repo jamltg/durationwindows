@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .topbar-container {
     background-color: var(--mobile-primary-color);
     width:100%;
@@ -137,6 +144,10 @@
     }
 
     .mobile-topbar {
+        display:none;
+    }
+
+    .topbar-dropdown {
         display:none;
     }
 }
