@@ -22,11 +22,7 @@
 /* Desktop header */
 
 .desktop-header-container{
-    background-color: var(--desktop-primary-color);
-    width:100%;
-    display:flex;
-    justify-content: space-between;
-    margin:auto;
+    display:none;
 }
 
 .desktop-header {
@@ -85,3 +81,20 @@
     width: auto;
 }
 
+@media (min-width: 1024px) {
+    .desktop-header-container{
+        background-color: var(--desktop-primary-color);
+        width:100%;
+        display:flex;
+        justify-content: space-between;
+        margin:auto;
+        -webkit-box-shadow: 0 1px 15px #272727;
+        -moz-box-shadow: 0 1px 15px #272727;
+        box-shadow: 0 1px 15px #272727;
+    }
+
+
+    .mobile-header {
+        display:none;
+    }
+}
