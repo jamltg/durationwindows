@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.reviews-container {
+    display:none;
+}
+
+.reviews {
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    align-items: center;
+    gap:1rem;
+}
+
+.reviews-text p {
+    font-size:13px;
+}
+
+.review-title {
+    font-size:14px;
+    font-weight:bold;
+}
+
+.review-body {
+    display:flex;
+    align-items: center;
+    padding:0.5rem 0;
+    min-height:5rem;
+}
+.reviewer {
+    font-size:12px;
+    font-weight:bold;
+}
+
+@media (min-width: 1024px) {
+    .reviews-container {
+        background-color:#eeeeee;
+        display:block;
+    }
+}

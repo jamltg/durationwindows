@@ -1,0 +1,33 @@
+.footer-container {
+    width:100%;
+    padding: 5rem 0;
+    background-color:var(--desktop-primary-color);
+    border-top:5px solid var(--border-accent-color);
+}
+
+.footer {
+    max-width:1200px;
+    margin:auto;
+    padding:0px 10px;
+}
+
+.essex-title {
+    border-bottom: 1px solid #000;
+}
+
+.essex-description {
+    font-size:14px;
+    color:#fff;
+    padding-top:0.8rem;
+}
+
+.essex-description p {
+    padding-bottom: 0.8rem;
+}
+
+.footer-essex h3 {
+    padding-bottom: 1rem;
+    color:#fff;
+    font-size:16px;
+}
+
