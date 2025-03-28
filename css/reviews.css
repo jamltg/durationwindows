@@ -39,7 +39,8 @@
 
 @media (min-width: 1024px) {
     .reviews-container {
-        background-color:#eeeeee;
+        background-color:var(--main-bg-color);
         display:block;
+        padding:3rem 10px;
     }
 }

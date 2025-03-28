@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/topbar.css">
     <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/slider-hero.css">
     <link rel="stylesheet" href="/css/reviews.css">
     <link rel="stylesheet" href="/css/products.css">
     <link rel="stylesheet" href="/css/footer.css">
@@ -141,6 +144,65 @@
             </div>
         </div>
     </header>
+    <!--SLIDER-->
+    <section class="swiperSection">
+        <div class="container">
+            <a href="#" class="mainHeading">Manufacturers of Aluminium Windows & Doors since 1985</a>
+            <div class="row">
+                <div class="box mainBox col-1">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="images/swiper-1.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/swiper-2.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/swiper-3.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/swiper-4.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/swiper-5.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="images/swiper-6.jpg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+                <div class="box gridingBox col-1">
+                    <div class="preTopBox">
+                        
+                        <div class="content">
+                            <p>Aluminium Bifolds </p>
+                            <i class="fa-solid fa-circle-chevron-right"></i>
+                        </div>
+                    </div>
+                    <div class="gridBox d-flex">
+                        <div class="grid-1 grid">
+
+                            <div class="content">
+                                <p>Heritage Range </p>
+                                <i class="fa-solid fa-circle-chevron-right"></i>
+                            </div>
+                        </div>
+                        <div class="grid-2 grid">
+                            
+                            <div class="content">
+                                <p>Modern Range </p>
+                                <i class="fa-solid fa-circle-chevron-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--Reviews-->
     <div class="reviews-container">
         <div class="reviews">
@@ -171,132 +233,134 @@
         </div>
     </div> 
     <!--Products-->
-    <div class="image-grid">
-        <div class="grid-item">
-            <a href="" class="product-link">
-                <img src="/images/sgWins.jpg" alt="Aluminium Bifolds">
-                <div class="products-description-container">
-                    <div class="products-title">
-                        <i class="fas fa-chevron-circle-right"></i>
-                        <p>Aluminium Bifolds</p>
+    <div class="products-container">
+        <div class="image-grid">
+            <div class="grid-item">
+                <a href="" class="product-link">
+                    <img src="/images/sgWins.jpg" alt="Aluminium Bifolds">
+                    <div class="products-description-container">
+                        <div class="products-title">
+                            <i class="fas fa-chevron-circle-right"></i>
+                            <p>Aluminium Bifolds</p>
+                        </div>
+                        <div class="products-description">
+                            <p>Bring The Outside In</p>
+                        </div>
                     </div>
-                    <div class="products-description">
-                        <p>Bring The Outside In</p>
+                </a>
+            </div>
+            <div class="grid-item alt">
+                <a href="" class="product-link">
+                    <img src="/images/sgWins.jpg" alt="Aluminium Sliders">
+                    <div class="products-description-container">
+                        <div class="products-title">
+                            <i class="fas fa-chevron-circle-right"></i>
+                            <p>Aluminium Sliders</p>
+                        </div>
+                        <div class="products-description">
+                            <p>More Light</p>
+                        </div>
                     </div>
-                </div>
-            </a>
-        </div>
-        <div class="grid-item alt">
-            <a href="" class="product-link">
-                <img src="/images/sgWins.jpg" alt="Aluminium Sliders">
-                <div class="products-description-container">
-                    <div class="products-title">
-                        <i class="fas fa-chevron-circle-right"></i>
-                        <p>Aluminium Sliders</p>
+                </a>
+            </div>
+            <div class="grid-item">
+                <a href="" class="product-link">
+                    <img src="/images/sgWins.jpg" alt="Aluminium Roofs">
+                    <div class="products-description-container">
+                        <div class="products-title">
+                            <i class="fas fa-chevron-circle-right"></i>
+                            <p>Aluminium Roofs</p>
+                        </div>
+                        <div class="products-description">
+                            <p>Versatile & Adaptable</p>
+                        </div>
                     </div>
-                    <div class="products-description">
-                        <p>More Light</p>
+                </a>
+            </div>
+            <div class="grid-item alt">
+                <a href="" class="product-link">
+                    <img src="/images/sgWins.jpg" alt="Secondary Glazing">
+                    <div class="products-description-container">
+                        <div class="products-title">
+                            <i class="fas fa-chevron-circle-right"></i>
+                            <p>Secondary Glazing</p>
+                        </div>
+                        <div class="products-description">
+                            <p>Cost Effective</p>
+                        </div>
                     </div>
-                </div>
-            </a>
-        </div>
-        <div class="grid-item">
-            <a href="" class="product-link">
-                <img src="/images/sgWins.jpg" alt="Aluminium Roofs">
-                <div class="products-description-container">
-                    <div class="products-title">
-                        <i class="fas fa-chevron-circle-right"></i>
-                        <p>Aluminium Roofs</p>
+                </a>
+            </div>
+            <div class="grid-item">
+                <a href="" class="product-link">
+                    <img src="/images/sgWins.jpg" alt="Modern Range">
+                    <div class="products-description-container">
+                        <div class="products-title">
+                            <i class="fas fa-chevron-circle-right"></i>
+                            <p>Modern Range</p>
+                        </div>
+                        <div class="products-description">
+                            <p>Slim & Secure</p>
+                        </div>
                     </div>
-                    <div class="products-description">
-                        <p>Versatile & Adaptable</p>
+                </a>
+            </div>
+            <div class="grid-item alt">
+                <a href="" class="product-link">
+                    <img src="/images/sgWins.jpg" alt="Heritage Range">
+                    <div class="products-description-container"> 
+                        <div class="products-title">
+                            <i class="fas fa-chevron-circle-right"></i>
+                            <p>Heritage Range</p>
+                        </div>
+                        <div class="products-description">
+                            <p>Steel Replacement</p>
+                        </div>
                     </div>
-                </div>
-            </a>
-        </div>
-        <div class="grid-item alt">
-            <a href="" class="product-link">
-                <img src="/images/sgWins.jpg" alt="Secondary Glazing">
-                <div class="products-description-container">
-                    <div class="products-title">
-                        <i class="fas fa-chevron-circle-right"></i>
-                        <p>Secondary Glazing</p>
+                </a>
+            </div>
+            <div class="grid-item">
+                <a href="" class="product-link">
+                    <img src="/images/sgWins.jpg" alt="Internal Screens">
+                    <div class="products-description-container"> 
+                        <div class="products-title">
+                            <i class="fas fa-chevron-circle-right"></i>
+                            <p>Internal Screens</p>
+                        </div>
+                        <div class="products-description">
+                            <p>Flexible & Versatile System</p>
+                        </div>
                     </div>
-                    <div class="products-description">
-                        <p>Cost Effective</p>
+                </a>
+            </div>
+            <div class="grid-item alt">
+                <a href="" class="product-link">
+                    <img src="/images/sgWins.jpg" alt="Vertical Sliders">
+                    <div class="products-description-container">
+                        <div class="products-title">
+                            <i class="fas fa-chevron-circle-right"></i>
+                            <p>Vertical Sliders</p>
+                        </div>
+                        <div class="products-description">
+                            <p>Simple & Elegant</p>
+                        </div>
                     </div>
-                </div>
-            </a>
-        </div>
-        <div class="grid-item">
-            <a href="" class="product-link">
-                <img src="/images/sgWins.jpg" alt="Modern Range">
-                <div class="products-description-container">
-                    <div class="products-title">
-                        <i class="fas fa-chevron-circle-right"></i>
-                        <p>Modern Range</p>
+                </a>
+            </div>
+            <div class="grid-item">
+                <a href="" class="product-link">
+                    <img src="/images/sgWins.jpg" alt="Commercial">
+                    <div class="products-description-container">
+                        <div class="products-title">
+                            <i class="fas fa-chevron-circle-right"></i>
+                            <p>Commercial</p>
+                        </div>
+                        <div class="products-description">
+                            <p>Slim & Strong</p>
+                        </div>
                     </div>
-                    <div class="products-description">
-                        <p>Slim & Secure</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="grid-item alt">
-            <a href="" class="product-link">
-                <img src="/images/sgWins.jpg" alt="Heritage Range">
-                <div class="products-description-container"> 
-                    <div class="products-title">
-                        <i class="fas fa-chevron-circle-right"></i>
-                        <p>Heritage Range</p>
-                    </div>
-                    <div class="products-description">
-                        <p>Steel Replacement</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="grid-item">
-            <a href="" class="product-link">
-                <img src="/images/sgWins.jpg" alt="Internal Screens">
-                <div class="products-description-container"> 
-                    <div class="products-title">
-                        <i class="fas fa-chevron-circle-right"></i>
-                        <p>Internal Screens</p>
-                    </div>
-                    <div class="products-description">
-                        <p>Flexible & Versatile System</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="grid-item alt">
-            <a href="" class="product-link">
-                <img src="/images/sgWins.jpg" alt="Vertical Sliders">
-                <div class="products-description-container">
-                    <div class="products-title">
-                        <i class="fas fa-chevron-circle-right"></i>
-                        <p>Vertical Sliders</p>
-                    </div>
-                    <div class="products-description">
-                        <p>Simple & Elegant</p>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="grid-item">
-            <a href="" class="product-link">
-                <img src="/images/sgWins.jpg" alt="Commercial">
-                <div class="products-description-container">
-                    <div class="products-title">
-                        <i class="fas fa-chevron-circle-right"></i>
-                        <p>Commercial</p>
-                    </div>
-                    <div class="products-description">
-                        <p>Slim & Strong</p>
-                    </div>
-                </div>
-            </a>
+                </a>
+            </div>
         </div>
     </div>
     <!--Footer-->
@@ -316,6 +380,7 @@
             </div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

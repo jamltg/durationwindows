@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+}
+
+.swiperSection {
+    background-color:var(--main-bg-color);
+}
+
+.d-flex {
+    display: flex;
+    gap: 20px;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+.col-1{
+    flex: 1 !important;
+}
+.col-2{
+    flex: 2;
+}
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding: 10px;
+}
+
+.swiper {
+    max-width: 706px;
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto !important;
+}
+
+.swiper-slide img {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.swiperSection .mainBox {
+    border: 5px solid #0063A6;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    width: 40px !important;
+    height: 40px !important;
+    line-height: 34px !important;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+:root {
+    --swiper-navigation-size: 14px !important;
+    --swiper-theme-color: white !important;
+}
+.swiperSection .row{
+    max-width: 1300px;
+    display: flex;
+    gap: 16px;
+}
+.swiperSection .gridingBox .preTopBox{
+    position: relative;
+    border: 5px solid #0063A6;
+    margin-bottom: 20px;
+    min-height: 228px;
+    background: url(/images/grid-1.jpg)  no-repeat center center/cover;
+}
+/* .swiperSection .gridingBox{
+    margin-bottom: 20px;
+} */
+
+.swiperSection .gridingBox img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.swiperSection .gridingBox .gridBox{
+    gap: 10px !important;
+    padding:0px 0px;
+}
+.swiperSection .gridingBox .gridBox .grid{
+    position: relative;
+    border: 5px solid #0063A6;
+    min-height: 271px;
+    width: 100%;
+}
+.swiperSection .gridingBox .gridBox .grid-1{
+    background: url(/images/grid-2.jpg) no-repeat center center/cover;
+}
+.swiperSection .gridingBox .gridBox .grid-2{
+    background: url(/images/grid-3.jpg) no-repeat center center/cover;
+}
+.content{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+}
+.swiperSection .gridingBox .preTopBox .content{
+    position: absolute;
+    width: 230px;
+    padding: 10px 10px 10px 10px;
+    font-size: 16px;
+    color: #fff;
+    background: #0063A6;
+    z-index: 1;
+    left: 16px !important;
+    bottom: 0 !important;
+    font-weight: bold;
+    left: 0px !important;
+    bottom: 0px;
+    text-align: left;
+}
+ .content::after{
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0 !important;
+    z-index: -100;
+    background: #0063A6;
+    transform-origin: top left;
+    -ms-transform: skew(45deg, 0deg);
+    -webkit-transform: skew(45deg, 0deg);
+    transform: skew(45deg, 0deg);
+}
+
+
+.swiperSection .gridingBox .gridBox .content{
+    position: absolute;
+    max-width: 126px;
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+    color: #fff;
+    background: #0063A6;
+    z-index: 1;
+    left: 16px !important;
+    bottom: 0 !important;
+    font-weight: bold;
+    left: 0px !important;
+    bottom: 0px;
+    text-align: left;
+}
+
+.swiperSection .gridingBox .gridBox .content p,
+.swiperSection .gridingBox .gridBox .content i{
+    font-size: 12px;
+
+}
+.mainHeading{
+    color: #0063A6;
+    font-weight: 600;
+    margin-bottom: 34px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.0em;
+    text-align: center;
+}
+@media screen and (max-width: 532px) {
+
+    .mainHeading{
+        color: #0063A6;
+        font-size: 20px;
+    }
+}
+
+/* @media screen and (min-width:600px) {
+    .swiperSection .gridingBox .gridBox {
+        padding:0 10px;
+    }
+} */
+@media screen and (max-width: 1176px) {
+.swiper {
+    max-width: 606px;
+    width: 100%;
+    height: 100%;
+}
+}
+
+@media screen and (max-width: 1064px) {
+.swiper {
+    max-width: 526px;
+    width: 100%;
+    height: 100%;
+}
+}
+
+@media screen and (max-width:1023px){
+    .swiperSection .row{
+        flex-direction: column;
+    }
+
+    .swiper {
+        max-width: 800px;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* @media screen and (max-width: 990px) {
+    
+.swiper {
+    max-width: 800px;
+    width: 100%;
+    height: 100%;
+} */
+
+/* @media screen and (max-width: 670px) {
+    .container {
+        padding: 0px 0px;
+    }
+} */
+
+@media screen and (min-width: 670px) {
+    .swiperSection .gridingBox .gridBox {
+        padding: 0px 0px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .container {
+        max-width: 1300px;
+        margin: auto;
+        padding: 0px;
+    }
+
+    .swiperSection .mainBox{
+        margin-bottom: 7px;
+    }
+    .swiperSection .gridingBox .gridBox{
+        flex-direction: column;
+        gap: 0px !important;
+    }
+    .swiperSection .gridingBox .gridBox .grid{
+        min-height: auto;
+        background: #0063A6;
+        border: none;
+    }
+    .swiperSection .gridingBox .preTopBox{
+        display: none;
+    }
+    .swiperSection .gridingBox .gridBox .content{
+        background-color: #0063A6;
+        max-width: 100%;
+        position: relative;
+        justify-content: end;
+        padding: 10px;
+        border-bottom: 5px solid #008ECC;
+    }
+    .swiperSection .row{
+        gap: 0px;
+    }
+    .swiperSection .gridingBox .gridBox .content p, .swiperSection .gridingBox .gridBox .content i{
+        font-size: 16px;
+    }
+    .content::after{
+        content: " ";
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0 !important;
+        z-index: -100;
+        background: #0063A6;
+        transform-origin: top left;
+        -ms-transform: skew(0deg, 0deg);
+        -webkit-transform: skew(0deg, 0deg);
+        transform: skew(0deg, 0deg);
+
+    }
+}
+
