@@ -41,7 +41,8 @@
 
 .topbar-dropdown {
     background-color: var(--mobile-primary-color);
-    position: relative;;
+    position: relative;
+    z-index:10;
 }
 
 .topbar-dropdown ul{
