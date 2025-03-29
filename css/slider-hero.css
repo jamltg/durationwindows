@@ -55,6 +55,11 @@
     height: auto !important;
 }
 
+.swiper-link {
+    display:block;
+    height:100%;
+}
+
 .swiper-slide img {
     width: 100% !important;
     height: 100% !important;
@@ -212,7 +217,7 @@
 }
 }
 
-@media screen and (max-width:1023px){
+@media screen and (max-width:1024px){
     .swiperSection .row{
         flex-direction: column;
     }

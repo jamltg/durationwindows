@@ -128,6 +128,23 @@
     border-radius:4px;
 }
 
+.bottom-news-btn-wrapper {
+  display:flex;
+  justify-content: center;
+  padding-top:2rem;
+}
+
+.bottom-news-button {
+  background-color: #0063A6;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  color:#fff;
+  padding: 6px 12px;
+  border:1px solid transparent;
+  font-size:14px;
+  line-height: 1.42857143;
+  touch-action: manipulation;
+  border-radius:4px;
+}
 
   
   /* Responsive: 2 columns for tablets */
@@ -146,5 +163,9 @@
     .news-description p {
         text-align:left;
         font-size:0.9em;
+      }
+
+      .bottom-news-btn-wrapper {
+        padding-top:3rem;
       }
   }

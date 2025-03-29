@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="/css/products.css">
     <link rel="stylesheet" href="/css/news.css">
     <link rel="stylesheet" href="/css/footer.css">
+    <script type="text/javascript" src="/starshine.min.js"></script>
+    <script type="text/javascript" src="/svg.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/2.7.1/svg.min.js"></script>
     <title>Duration Windows</title>
 </head>
 <body>
@@ -128,8 +131,11 @@
             <div class="desktop-header">
                 <div class="desktop-header-logo">
                     <img src="images/40years.png" alt="40 Years">
-                    <img id="shiny-logo" src="images/img_logo.png" alt="Logo">  
-                    <div class="effect" id="starshineNX"></div>     
+                    <div style="position:relative;">
+                        <img id="shiny-logo" src="images/img_logo.png" alt="Logo"> 
+                        <div class="effect" id="starshineNX"></div>
+                    </div>
+                         
                 </div>
                 <ul class="desktop-header-menu">
                     <li><a href="#"><p>PRODUCTS</p><i class="fa fa-angle-down"></i></a></li>
@@ -155,22 +161,34 @@
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <img src="images/swiper-1.jpg" alt="" class="img-fluid">
+                                <a href="https://duration.co.uk/heritage-windows-and-Doors.asp" class="swiper-link">
+                                    <img src="images/swiper-1.jpg" alt="" class="img-fluid">
+                                </a>
                             </div>
                             <div class="swiper-slide">
-                                <img src="images/swiper-2.jpg" alt="" class="img-fluid">
+                                <a href="https://duration.co.uk/Royale-Steel-Replacement-Windows.asp" class="swiper-link">
+                                    <img src="images/swiper-2.jpg" alt="" class="img-fluid">
+                                </a>
                             </div>
                             <div class="swiper-slide">
-                                <img src="images/swiper-3.jpg" alt="" class="img-fluid">
+                                <a href="https://www.duration.co.uk/news2025.asp" class="swiper-link">
+                                    <img src="images/swiper-3.jpg" alt="" class="img-fluid">
+                                </a>
                             </div>
                             <div class="swiper-slide">
-                                <img src="images/swiper-4.jpg" alt="" class="img-fluid">
+                                <a href="https://duration.co.uk/modern-windows-and-Doors.asp" class="swiper-link">
+                                    <img src="images/swiper-4.jpg" alt="" class="img-fluid">
+                                </a>
                             </div>
                             <div class="swiper-slide">
-                                <img src="images/swiper-5.jpg" alt="" class="img-fluid">
+                                <a href="https://duration.co.uk/Get-A-Price.asp" class="swiper-link">
+                                    <img src="images/swiper-5.jpg" alt="" class="img-fluid">
+                                </a>
                             </div>
                             <div class="swiper-slide">
-                                <img src="images/swiper-6.jpg" alt="" class="img-fluid">
+                                <a href="https://duration.co.uk/Get-A-Price.asp" class="swiper-link">
+                                    <img src="images/swiper-6.jpg" alt="" class="img-fluid">
+                                </a>
                             </div>
                         </div>
                         <div class="swiper-button-next"></div>
@@ -446,28 +464,124 @@
                     </div>
                 </div>
             </div>
+            <div>
+                <div class="bottom-news-btn-wrapper">
+                    <button class="bottom-news-button">View All News</button>
+                </div>
+            </div>
         </div>
     </div>
     <!--Footer-->
     <div class="footer-container">
         <div class="footer">
-            <div>
+            <div class="footer-nav-container">
                 <div class="footer-essex">
-                    <div class="essex-title">
-                        <h3>Essex Product Showroom</h3>
+                    <div class="footer-lists-title footer-borders">
+                        <h3>ESSEX PRODUCT SHOWROOM</h3>
                     </div>
                     <div class="essex-description">
                         <p>Book an appointment today at our Showroom and receive a 5% Discount Voucher.</p>
-                        <p>Need a Fitter?</p>
-                        <p>We carry a large database of experienced fitters. <a href="" title="">Contact us</a> for further details.</p>
+                        <div class="fitter-wrapper">
+                            <p>Need a Fitter?</p>
+                            <p>We carry a large database of experienced fitters. <a href="#" class="essex-link">Contact us</a> for further details.</p>
+                        </div>
                     </div>
+                </div>
+                <div class="footer-useful-links">
+                    <div class="footer-lists-title">
+                        <h3>USEFUL LINKS</h3>
+                    </div>
+                    <ul class="useful-links-list">
+                        <li class="footer-useful-links">
+                            <a href="https://duration.co.uk/Get-A-Price.asp" class="useful-links-link">
+                                Get A Price
+                            </a>
+                        </li>
+                        <li class="footer-useful-links">
+                            <a href="https://duration.co.uk/AboutUs.asp" class="useful-links-link">
+                                UK Trade Manufacturers
+                            </a>
+                        </li>
+                        <li class="footer-useful-links">
+                            <a href="https://duration.co.uk/contact.asp" class="useful-links-link">
+                                Contact
+                            </a>
+                        </li>
+                        <li class="footer-useful-links">
+                            <a href="https://duration.co.uk/TechnicalDocuments-AluminiumWindows.asp" class="useful-links-link">
+                                Technical Downloads
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-products">
+                    <div class="footer-lists-title">
+                        <h3>PRODUCTS</h3>
+                    </div>
+                    <ul class="useful-links-list">
+                        <li class="footer-useful-links">
+                            <a href="https://duration.co.uk/Aluminium-Bifold-Doors.asp" class="useful-links-link">
+                                Bifold Doors
+                            </a>
+                        </li>
+                        <li class="footer-useful-links">
+                            <a href="https://duration.co.uk/Aluminium-Sliding-Patio-Doors.asp" class="useful-links-link">
+                                Sliding Patio Doors
+                            </a>
+                        </li>
+                        <li class="footer-useful-links">
+                            <a href="https://www.duration.co.uk/steel-replacement-windows.asp" class="useful-links-link">
+                                Heritage Windows
+                            </a>
+                        </li>
+                        <li class="footer-useful-links">
+                            <a href="https://www.duration.co.uk/Steel-Replacement-Doors-Heritage.asp" class="useful-links-link">
+                                Heritage Doors
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <div class="footer-lists-title">
+                        <h3>GET IN TOUCH</h3>
+                    </div>
+                    <ul>
+                        <li class="footer-contact-links">
+                            <div class="footer-icon-container">
+                                <i class="fa fa-map-marker footer-contact-icon"></i>
+                            </div>
+                            <span class="footer-address">Duration Windows, Thames Development, Charfleets Road, Canvey Island, Essex SS8 0PQ</span>
+                        </li>
+                        <li class="footer-contact-links">
+                            <div class="footer-icon-container">
+                                <i class="fa fa-phone footer-contact-icon"></i>
+                            </div>
+                            <span>01268 681612</span>
+                        </li>
+                        <li class="footer-contact-links">
+                            <div class="footer-icon-container">
+                                <i class="fas fa-envelope footer-contact-icon"></i>
+                            </div>
+                            <span class="footer-address">sales@duration.co.uk</span>
+                        </li>
+                        <li class="footer-contact-links">
+                            <div class="footer-icon-container">
+                                <i class="fa fa-globe footer-contact-icon"></i>
+                            </div>
+                            <span>https://duration.co.uk</span>
+                        </li>
+                        <li class="footer-contact-links">
+                            <div class="footer-icon-container">
+                                <i class="fa fa-file footer-contact-icon"></i>
+                            </div>
+                            <span>Send Us A File</span>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@svgdotjs/svg.js"></script>
-    <script src="starshine.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
