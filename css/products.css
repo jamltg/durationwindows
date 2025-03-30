@@ -43,8 +43,24 @@
     color:#fff;
 }
 
+.last {
+    font-size:1.5rem;
+}
+
 .products-title p{
     font-size:0.8em;
+    font-weight:bold;
+    color:#fff;
+}
+
+.products-title-last {
+    display:flex;
+    align-items: center;
+    gap:0.5rem
+}
+
+.products-title-last p{
+    font-size:0.95em;
     font-weight:bold;
     color:#fff;
 }
@@ -77,6 +93,7 @@
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    height:220px;
 }
 
 .products-last-image-container {
@@ -97,6 +114,7 @@
 .products-last-image-container img {
     width: 100%;
     display: block;
+    height:100%;
 }
 
 .image-text {
@@ -122,6 +140,7 @@
     .products-last-container {
         padding:0 10px;
         padding-top:10px;
+        height:auto;
     }
 
     .image-grid {

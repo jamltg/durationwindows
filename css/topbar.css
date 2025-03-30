@@ -30,6 +30,7 @@
     text-decoration: none;
     font-size:11px;
     display:flex;
+    align-items:center;
     gap:0.3rem;
 }
 
@@ -128,6 +129,10 @@
 .topbar-right li a:hover i {
     transform: rotate(360deg); /* Full rotation */
     color:var(--secondary-color);
+}
+
+.fa-gem, .fa-calculator, .fa-map-marker-alt, .fa-bars {
+    font-size:1rem;
 }
 
 @media (min-width: 1024px) {
