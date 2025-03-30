@@ -1,0 +1,62 @@
+.buttons-quicklinks {
+    display:none;
+    background-color:var(--main-bg-color);
+    padding-top:5rem;
+    padding-bottom:2rem;
+}
+
+.buttons-quicklinks-container {
+    max-width:1200px;
+    margin:auto;
+    padding:0 10px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.quicklinks-button-shipping, .quicklinks-button-guarantee {
+    background:#fff;
+    display:flex;
+    align-items:center;
+    width:380px;
+    border:1px solid #ccc;
+}
+
+.quicklinks-shipping-title, .quicklinks-guarantee-title {
+    display:flex;
+    align-items:center;
+    gap:0.5rem;
+}
+
+.quicklinks-shipping-link, .quicklinks-guarantee-link {
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem;
+}
+
+.quicklinks-shipping-link {
+    color:#09f;
+}
+
+.quicklinks-guarantee-link {
+    color: #d09520;
+}
+
+.fa-shipping-fast, .fa-certificate{
+    font-size:1.4em;
+}
+
+.quicklinks-shipping-info {
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction:column;
+}
+
+@media screen and (min-width:1024px) {
+    .buttons-quicklinks {
+        display:block;
+    }
+}
+
