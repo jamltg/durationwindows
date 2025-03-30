@@ -149,8 +149,8 @@
 }
 
 .footer-proprietors-container, .footer-terms-container {
-    max-width:600px;
-    text-align:center;
+    max-width:767px;
+    text-align:left;
     margin:auto;
 }
 
@@ -169,10 +169,36 @@
     border-top: 1px solid #262728; /* Add border to li items */
 }
 
+.footer-trustpilotlogo-container {
+    padding-top:2rem;
+    display:none;
+}
+
+.footer-trustpilotlogo {
+    color:#fff;
+    display:flex;
+    align-items: center;
+    gap:0.5rem;
+}
+
+.footer-trustpilotlogo p{
+    font-size:17px;
+}
+
+.footer-trustpilot-5stars {
+    max-width:80px;
+}
+
+.footer-trustpilot {
+    margin-top:2px;
+    max-width:75px;
+}
+
 /* Media Query for larger screens (Desktop) */
 @media screen and (min-width: 768px) {
     .footer-proprietors-container, .footer-terms-container {
         text-align:left;
+        max-width:600px;
     }
 
     .footer-paragraphs {
@@ -200,6 +226,12 @@
         gap:20px;
         display:flex;
         flex-wrap:wrap;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .footer-trustpilotlogo-container {
+        display:block;
     }
 }
 
