@@ -1,0 +1,248 @@
+/*PRODUCTS SUBMENU*/
+
+  .header-products-submenu {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s ease, visibility 0.2s ease;
+    position: absolute;
+    top: calc(100% + 45px); /* Moves it below the invisible area */
+    left: -200px;
+    background-color: var(--desktop-primary-color);
+    padding: 20px;
+    min-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    flex-direction: column;
+    gap: 16px;
+    border-top: 2px solid var(--desktop-secondary-color);
+    pointer-events: none;
+}
+
+/* Keep submenu open when hovering over nav or submenu */
+.desktop-nav-container:hover .header-products-submenu,
+.desktop-nav-container:hover::after,
+.header-products-submenu:hover {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+  .desktop-nav-container:hover .header-products-submenu {
+    display: block;
+}
+  
+  /* Flex: Image + Lists */
+  .submenu-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  /* Image Section */
+  .submenu-image{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .submenu-image img {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  /* Two-column product list */
+  .submenu-lists {
+    display: flex;
+    gap: 40px;
+  }
+  
+  /* Each column */
+  .submenu-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .submenu-list li a {
+    display: flex;
+    justify-content: space-between;
+    width:160px;
+    gap:2.5rem;
+    padding: 6px 0;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    border-bottom:1px solid #262728;
+  }
+
+
+
+/*submenu icons and hover*/
+
+.submenu-list li a:hover {
+    background-color: var(--desktop-primary-color);
+    color: var(--submenu-link-color);
+  }
+
+.submenu-list li:hover a {
+    border-bottom: 1px solid var(--submenu-link-color);
+}
+
+.header-subWindow a span{
+    background: url(/images/ali-iconsSM.png) 0 0;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 0px 0px;
+    width: 25px;
+    height: 25px;
+    display: block;
+  }
+
+.header-subWindow:hover a span {
+    background-position: 0 -25px;
+  }
+
+.header-subRoof a span{
+    background: url(/images/ali-iconsSM.png) 0 0;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 0px -100px;
+    width: 25px;
+    height: 25px;
+    display: block;
+  }
+
+.header-subRoof:hover a span {
+    background-position: 0 -125px;
+  }
+
+.header-subSliders a span{
+    background: url(/images/ali-iconsSM.png) 0 0;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 0px -200px;
+    width: 25px;
+    height: 25px;
+    display: block;
+  }
+
+.header-subSliders:hover a span {
+    background-position: 0 -225px;
+  }
+
+.header-subHeritage a span{
+    background: url(/images/ali-iconsSM.png) 0 0;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 0px -300px;
+    width: 25px;
+    height: 25px;
+    display: block;
+  }
+
+.header-subHeritage:hover a span {
+    background-position: 0 -325px;
+  }
+
+
+.header-subDoors a span{
+    background: url(/images/ali-iconsSM.png) 0 0;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 0px -50px;
+    width: 25px;
+    height: 25px;
+    display: block;
+  }
+
+.header-subDoors:hover a span {
+    background-position: 0 -75px;
+  }
+
+.header-subBifolds a span{
+    background: url(/images/ali-iconsSM.png) 0 0;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 0px -150px;
+    width: 25px;
+    height: 25px;
+    display: block;
+  }
+
+.header-subBifolds:hover a span {
+    background-position: 0 -175px;
+  }
+
+.header-subSecondary a span{
+    background: url(/images/ali-iconsSM.png) 0 0;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 0px -250px;
+    width: 25px;
+    height: 25px;
+    display: block;
+}
+
+.header-subSecondary:hover a span {
+    background-position: 0 -275px;
+  }
+
+.header-subCommercial a span{
+    background: url(/images/ali-iconsSM.png) 0 0;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: 0px -350px;
+    width: 25px;
+    height: 25px;
+    display: block;
+}
+
+.header-subCommercial:hover a span {
+    background-position: 0 -375px;
+  }
+
+
+
+
+/*services dropdown*/
+.header-services-submenu {
+    display: none;
+    position: absolute;
+    background-color: var(--desktop-primary-color);
+    border-top: 2px solid var(--desktop-secondary-color);
+    min-width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 20;
+    top: calc(100% + 45px);
+    left:-30px;
+}
+
+.header-services-submenu ul {
+    list-style: none;
+}
+
+.header-services-submenu li a {
+    width:100%;
+    display: block;
+    padding: 10px 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+}
+
+.header-services-submenu ul li:not(:last-child) {
+    border-bottom: 1px solid var(--footer-border-color);
+}
+
+.header-services-submenu li a:hover {
+    color: var(--submenu-link-color);
+}
+
+.desktop-nav-container:hover .header-services-submenu {
+    display: block;
+}
