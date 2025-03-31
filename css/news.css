@@ -42,11 +42,6 @@
     margin:0 auto;
     transition:all 0.3s ease;
   }
-
-  .news-table:hover {
-    margin-top:-20px;
-    margin-bottom:-20px;
-  }
   
   /* Image styling */
   .news-img-container img {
@@ -120,6 +115,7 @@
 }
 
 .news-button {
+    display:none;
     width:100%;
     background-color: var(--desktop-secondary-color);
     padding: 6px 12px;
@@ -168,5 +164,14 @@
 
       .bottom-news-btn-wrapper {
         padding-top:3rem;
+      }
+
+      .news-button {
+        display:block;
+      }
+
+      .news-table:hover {
+        margin-top:-20px;
+        margin-bottom:-20px;
       }
   }
