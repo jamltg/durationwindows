@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.technical-docs-container {
+    width:100%;
+}
+
+.technical-docs-banner {
+    width:100%;
+}
+
+.technical-docs-banner img {
+    max-width: 100%;
+}
+
+.aluminumwindows-navigation-container {
+    display:none;
+    background-color:#f0f0f0;
+    padding: 1.2rem 0;
+}
+
+.aluminumwindows-navigation {
+    max-width:1200px;
+    padding:0 10px;
+    margin:auto;
+    display:flex;
+    list-style: none;
+    font-size:0.8em;
+}
+
+.aluminumwindows-navigation li a {
+    text-decoration: none;
+    color:#999;
+}
+
+.aluminumwindows-navigation li {
+    display: inline-block; 
+    padding: 0 0.5rem; 
+    position: relative;
+}
+
+.aluminumwindows-navigation li:not(:last-child)::after {
+    content: " | "; 
+    color: #999; 
+    margin-left: 0.5rem; 
+}
+
+.aluminumwindows-navigation li:nth-child(1),
+.aluminumwindows-navigation li:nth-child(2) {
+    color: #999;
+}
+
+.aluminumwindows-navigation li:last-child {
+    color: var(--desktop-secondary-color);
+}
+
+.aluminumwindows-arrow{
+    display:none;
+    width:100%;
+    justify-content: center;
+}
+
+.technical-docs-description {
+    max-width:1200px;
+    margin:auto;
+    padding:0 10px;
+}
+
+.technical-docs-description h2 {
+    padding-top:2rem;
+    font-size:1.3rem;
+    text-align:left;
+    color: var(--desktop-secondary-color);
+    font-weight:normal;
+}
+
+.technical-docs-title-bold {
+    font-weight:700;
+}
+
+.technical-docs-paragraph {
+    padding:1.5rem 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:2rem;
+}
+
+.technical-docs-paragraph p {
+    color:#535453;
+    text-align: left;
+    line-height:1.8rem;
+}
+
+@media screen and (min-width: 900px) {
+    .aluminumwindows-navigation-container {
+        display:block;
+    }
+
+    .aluminumwindows-arrow{
+        display:flex;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .technical-docs-paragraph {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .technical-docs-description h2 {
+        font-size:1.6rem;
+    }
+
+    .technical-docs-paragraph p {
+        flex:1;
+    }
+}
