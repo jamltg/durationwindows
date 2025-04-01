@@ -57,6 +57,7 @@
 .essex-link {
     color:#fff;
     font-weight:bold;
+    text-decoration:none;
 }
 
 .useful-links-list, .footer-contact-links {
@@ -164,6 +165,10 @@
 /* Apply border-top to each li */
 .useful-links-list li {
     border-top: 1px solid #262728; /* Add border to li items */
+}
+
+.useful-links-link {
+    text-decoration: none;
 }
 
 .footer-contact-links li {
