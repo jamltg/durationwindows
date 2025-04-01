@@ -3,9 +3,469 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Technical Support | Technical Document Downloads | Aluminum Windows</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/topbar.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/header-submenu.css">
+    <link rel="stylesheet" href="../css/footer.css">
 </head>
 <body>
-    <h1>Test</h1>
+    <!--TOPBAR-->
+    <section class="topbar-container">
+        <ul class="mobile-topbar">
+            <li>
+                <a href="#" id="topbarToggle">
+                    <i class="fa-solid fa-bars"></i>
+                    <span>MENU</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://duration.co.uk/Get-A-Price.asp">
+                    <i class="fa-solid fa-calculator"></i>
+                    <span>QUOTE</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://duration.co.uk/products.asp">
+                    <i class="fas fa-gem"></i>
+                    <span>PRODUCTS</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://duration.co.uk/contact.asp">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>CONTACT</span>
+                </a>
+            </li>
+        </ul>
+
+        <!--Mobile Dropdown-->
+        <div id="mobile-dropdown" class="topbar-dropdown hidden">
+            <ul>
+                <li><a href="https://duration.co.uk/products.asp">Products</a></li>
+                <li><a href="https://duration.co.uk/Brochures-AluminiumWindows.asp">Brochures</a></li>
+                <li><a href="/pages/technical-manuals.html">Technical</a></li>
+                <li><a href="https://duration.co.uk/OrderForms-SecondaryGlazing.asp">Order Forms</a></li>
+                <li><a href="https://duration.co.uk/Get-A-Price.asp">Get Price</a></li>
+                <li><a href="https://duration.co.uk/ServicesAndSupport.asp">Services</a></li>
+                <li><a href="https://duration.co.uk/special-offers.asp">Special Offers</a></li>
+                <li><a href="https://duration.co.uk/contact.asp">Contact</a></li>
+                <li><a href="https://duration.co.uk/index.asp">Home</a></li>
+            </ul>
+        </div>
+
+        <!--Desktop Topbar-->
+        <div class="desktop-topbar">
+            <ul class="topbar-left">
+                <li>
+                    <a href="#">
+                        <i class="fa fa-envelope"></i>
+                        sales@duration.co.uk
+                    </a>
+                </li>
+                <li>
+                    <a href="tel: 01268 681612">
+                        <i class="fa fa-phone"></i>
+                        01268 681612
+                    </a>
+                </li>
+            </ul>
+            <ul class="topbar-right">
+                <li>
+                    <a href="https://durationgroup.wetransfer.com/">Send Us A File</a>
+                </li>
+                <li>
+                    <a href="https://duration.co.uk/AboutUs.asp">About</a>
+                </li>
+                <li>
+                    <a href="https://duration.co.uk/customerfeedback.asp">Testimonials</a>
+                </li>
+                <li>
+                    <a href="https://duration.co.uk/news.asp">News</a>
+                </li>
+                <li>
+                    <a href="https://www.pinterest.co.uk/pinterest4844/" target="_blank" title="Follow us on Pinterest">
+                        <i class="fab fa-pinterest-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.facebook.com/pages/Duration-Windows/221329171234244" target="_blank" title="Follow us on Facebook">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://twitter.com/durationwindows" target="_blank" title="Follow us on Twitter">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/user/DurationWindows">
+                        <i class="fab fa-youtube-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/durationwindows" target="_blank" title="Follow us on Instagram">
+                        <i class="fab fa-instagram-square"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!--Header-->
+    <header>
+        <div class="mobile-header">
+            <a href="#" class="header-mobile-logo">
+                <img src="images/img_logo.png" alt="Duration Windows Logo">
+            </a>
+        </div>
+        <div class="desktop-header-container">
+            <div class="desktop-header">
+                <a href="https://duration.co.uk/index.asp">
+                    <div class="desktop-header-logo">
+                        <img src="../images/40years.png" alt="40 Years">
+                        <img src="../images/img_logo.png" alt="Logo"> 
+                    </div>
+                </a>
+                <ul class="desktop-header-menu">
+                    <li class="desktop-nav-container">
+                        <a href="https://www.duration.co.uk/products.asp" class="header-products-mainLink">
+                            <span>PRODUCTS</span>
+                            <i class="fa fa-angle-down"></i>
+                        </a>
+                        <!--Dropdown for PRODUCTS-->
+                        <div class="header-products-submenu">
+                            <div class="submenu-top">
+                              
+                              <!-- Image Section -->
+                              <div class="submenu-image">
+                                <img src="/images/40years.png" alt="Product Preview" />
+                              </div>
+                        
+                              <!-- Product List Section -->
+                              <div class="submenu-lists">
+                                <ul class="submenu-list left">
+                                  <li class="header-subWindow">
+                                    <a href="https://duration.co.uk/Aluminium-Windows.asp" class="submenu-list-hover">
+                                        <span></span>
+                                        <p>WINDOWS</p>
+                                    </a>
+                                    </li>
+                                  <li class="header-subRoof">
+                                    <a href="https://www.duration.co.uk/aluminium-roofs.asp" class="submenu-list-hover">
+                                        <span></span>
+                                        <p>ROOFS</p>
+                                    </a>
+                                  </li>
+                                  <li class="header-subSliders">
+                                    <a href="https://duration.co.uk/Aluminium-Sliding-Patio-Doors.asp" class="submenu-list-hover">
+                                        <span></span>
+                                        <p>SLIDERS</p>
+                                    </a>
+                                  </li>
+                                  <li class="header-subHeritage">
+                                    <a href="https://duration.co.uk/Heritage-Windows-And-Doors.asp" class="submenu-list-hover">
+                                        <span></span>
+                                        <p>HERITAGE</p>
+                                    </a>
+                                  </li>
+                                </ul>
+                                <ul class="submenu-list right">
+                                  <li class="header-subDoors">
+                                    <a href="https://duration.co.uk/Aluminium-Doors.asp" class="submenu-list-hover">
+                                        <span></span>
+                                        <p>DOORS</p>
+                                    </a>
+                                  </li>
+                                  <li class="header-subBifolds">
+                                    <a href="https://www.duration.co.uk/aluminium-bifold-doors.asp" class="submenu-list-hover">
+                                        <span></span>
+                                        <p>BI-FOLDS</p>
+                                    </a>
+                                  </li>
+                                  <li class="header-subSecondary">
+                                    <a href="https://duration.co.uk/Secondary-Glazing.asp" class="submenu-list-hover">
+                                        <span></span>
+                                        <p>SECONDARY</p>
+                                    </a>
+                                  </li>
+                                  <li class="header-subCommercial">
+                                    <a href="https://duration.co.uk/Commercial-Aluminium-Systems.asp" class="submenu-list-hover">
+                                        <span></span>
+                                        <p>COMMERCIAL</p>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                        
+                            <!-- Sentence Below -->
+                            <div class="submenu-bottom">
+                              <p>UK MANUFACTURERS OF QUALITY ALUMINUM WINDOWS & DOORS SINCE 1985</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="desktop-nav-container">
+                        <a href="https://www.duration.co.uk/ServicesAndSupport.asp" class="header-products-mainLink">SERVICES<i class="fa fa-angle-down"></i></a>
+                        <!--Dropdown for SERVICES-->
+                        <div class="header-services-submenu">
+                            <ul>
+                                <li><a href="https://duration.co.uk/Get-A-Price.asp">GET A PRICE</a></li>
+                                <li><a href="https://duration.co.uk/special-offers.asp">SPECIAL OFFERS</a></li>
+                                <li><a href="https://duration.co.uk/FoldingSlidingDoors-FittingService.asp">BIFOLD INSTALLATION</a></li>
+                                <li><a href="https://duration.co.uk/Delivery.asp">DELIVERY</a></li>
+                                <li><a href="https://duration.co.uk/FastTrack.asp">FAST TRACK</a></li>
+                                <li><a href="https://duration.co.uk/Request-Installers.asp">FIND A FITTER</a></li>
+                                <li><a href="https://duration.co.uk/MarketingSupport.asp">MARKETING SUPPORT</a></li>
+                                <li><a href="https://duration.co.uk/Product-Design-Tools.asp">PRODUCT DESIGN TOOLS</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="desktop-nav-container">
+                        <a href="https://www.duration.co.uk/Brochures-AluminiumWindows.asp" class="header-products-mainLink">
+                            DOWNLOADS
+                            <i class="fa fa-angle-down"></i>
+                        </a>
+                        <!--Dropdown for SERVICES-->
+                        <div class="header-services-submenu">
+                            <ul>
+                                <li><a href="https://www.duration.co.uk/Brochures-AluminiumWindows.asp">SALES BROCHURES</a></li>
+                                <li><a href="/pages/technical-manuals.html">TECHNICAL MANUALS</a></li>
+                                <li><a href="https://www.duration.co.uk/OrderForms-SecondaryGlazing.asp">ORDER FORMS</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="https://www.duration.co.uk/showroom.asp" class="header-products-mainLink">
+                        SHOWROOM
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.duration.co.uk/contact.asp" class="header-products-mainLink">
+                            CONTACT
+                        </a>
+                    </li>
+                    <li class="get-price-container">
+                        <a href="https://www.duration.co.uk/Get-A-Price.asp">
+                            <img src="/images/getprice.png" alt="Get Price" class="get-price">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="footer-container">
+        <div class="footer">
+            <div class="footer-nav-container">
+                <div class="footer-essex">
+                    <div class="footer-lists-title footer-borders">
+                        <h3>ESSEX PRODUCT SHOWROOM</h3>
+                    </div>
+                    <div class="essex-description">
+                        <p>Book an appointment today at our Showroom and receive a 5% Discount Voucher.</p>
+                        <div class="fitter-wrapper">
+                            <p>Need a Fitter?</p>
+                            <p>We carry a large database of experienced fitters. <a href="https://duration.co.uk/contactus.asp" class="essex-link">Contact us</a> for further details.</p>
+                        </div>
+                    </div>
+                    <div class="footer-trustpilotlogo-container">
+                        <a href="https://uk.trustpilot.com/review/www.duration.co.uk?utm_medium=trustbox&utm_source=MicroStar" target="_blank">
+                            <div class="footer-trustpilotlogo">
+                                <p>Excellent</p>
+                                <div>
+                                    <img src="/images/Trustpilot_ratings_5star-RGB.png" class="footer-trustpilot-5stars">
+                                </div>
+                                <div class="trustlogo">
+                                    <img src="/images/trustpilot-logo.png" class="footer-trustpilot">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-useful-links">
+                    <div class="footer-lists-title">
+                        <h3>USEFUL LINKS</h3>
+                    </div>
+                    <ul class="useful-links-list">
+                        <li class="footer-useful-links">
+                            <a href="https://duration.co.uk/Get-A-Price.asp" class="useful-links-link">
+                                Get A Price
+                            </a>
+                        </li>
+                        <li class="footer-useful-links">
+                            <a href="https://duration.co.uk/AboutUs.asp" class="useful-links-link">
+                                UK Trade Manufacturers
+                            </a>
+                        </li>
+                        <li class="footer-useful-links">
+                            <a href="https://duration.co.uk/contact.asp" class="useful-links-link">
+                                Contact
+                            </a>
+                        </li>
+                        <li class="footer-useful-links">
+                            <a href="https://duration.co.uk/TechnicalDocuments-AluminiumWindows.asp" class="useful-links-link">
+                                Technical Downloads
+                            </a>
+                        </li>
+                        <li class="footer-useful-links">
+                            <a href="https://duration.co.uk/customerfeedback.asp" class="useful-links-link">
+                                Testimonials
+                            </a>
+                        </li>
+                        <li class="footer-useful-links">
+                            <a href="https://duration.co.uk/cookies.asp" class="useful-links-link">
+                                Cookies
+                            </a>
+                        </li>
+                        <li class="footer-useful-links">
+                            <a href="https://duration.co.uk/privacy-policy.asp" class="useful-links-link">
+                                Privacy Policy
+                            </a>
+                        </li>
+                        <li class="footer-useful-links">
+                            <a href="https://duration.co.uk/Terms-And-Conditions.asp" class="useful-links-link">
+                                Terms & Conditions
+                            </a>
+                        </li>
+                        <li class="footer-useful-links">
+                            <a href="https://duration.co.uk/downloads/Duration%20Windows%20-%20Slavery%20and%20Human%20Trafficking%20Statement2024.pdf" class="useful-links-link">
+                                Modern Slavery Statement
+                            </a>
+                        </li>
+                        <li class="footer-useful-links">
+                            <a href="https://duration.co.uk/sitemap.asp" class="useful-links-link">
+                                Site Map
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-products">
+                    <div class="footer-lists-title">
+                        <h3>PRODUCTS</h3>
+                    </div>
+                    <ul class="useful-links-list">
+                        <li class="footer-useful-links">
+                            <a href="https://duration.co.uk/Aluminium-Bifold-Doors.asp" class="useful-links-link">
+                                Bifold Doors
+                            </a>
+                        </li>
+                        <li class="footer-useful-links">
+                            <a href="https://duration.co.uk/Aluminium-Sliding-Patio-Doors.asp" class="useful-links-link">
+                                Sliding Patio Doors
+                            </a>
+                        </li>
+                        <li class="footer-useful-links">
+                            <a href="https://duration.co.uk/Heritage-Steel-Replacement-Windows.asp" class="useful-links-link">
+                                Heritage Windows
+                            </a>
+                        </li>
+                        <li class="footer-useful-links">
+                            <a href="https://www.duration.co.uk/Steel-Replacement-Doors-Heritage.asp" class="useful-links-link">
+                                Heritage Doors
+                            </a>
+                        </li>
+                        <li class="footer-useful-links">
+                            <a href="https://duration.co.uk/Aluminium-Windows.asp" class="useful-links-link">
+                                Aluminum Windows
+                            </a>
+                        </li>
+                        <li class="footer-useful-links">
+                            <a href="https://duration.co.uk/Aluminium-Doors.asp" class="useful-links-link">
+                                Aluminum Doors
+                            </a>
+                        </li>
+                        <li class="footer-useful-links">
+                            <a href="https://duration.co.uk/Secondary-Glazing.asp" class="useful-links-link">
+                                Secondary Glazing
+                            </a>
+                        </li>
+                        <li class="footer-useful-links">
+                            <a href="https://www.duration.co.uk/aluminium-roofs.asp" class="useful-links-link">
+                                Aluminum Roof Lanterns
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <div class="footer-lists-title">
+                        <h3>GET IN TOUCH</h3>
+                    </div>
+                    <ul>
+                        <li class="footer-contact-links">
+                            <div class="footer-getintouch-link">
+                                <div class="footer-icon-container">
+                                    <i class="fa fa-map-marker footer-contact-icon"></i>
+                                </div>
+                                <span class="footer-address">Duration Windows, Thames Development, Charfleets Road, Canvey Island, Essex SS8 0PQ</span>
+                            </div>
+                        </li>
+                        <li class="footer-contact-links">
+                            <a href="tel:01268681612" class="footer-getintouch-link">
+                                <div class="footer-icon-container">
+                                    <i class="fa fa-phone footer-contact-icon"></i>
+                                </div>
+                                <span>01268 681612</span>
+                            </a>
+                        </li>
+                        <li class="footer-contact-links">
+                            <a href="mailto:sales@duration.co.uk" class="footer-getintouch-link">
+                                <div class="footer-icon-container">
+                                    <i class="fas fa-envelope footer-contact-icon"></i>
+                                </div>
+                                <span class="footer-address">sales@duration.co.uk</span>
+                            </a>
+                        </li>
+                        <li class="footer-contact-links">
+                            <a href="https://duration.co.uk" class="footer-getintouch-link">
+                                <div class="footer-icon-container">
+                                    <i class="fa fa-globe footer-contact-icon"></i>
+                                </div>
+                                <span>https://duration.co.uk</span>
+                            </a>
+                        </li>
+                        <li class="footer-contact-links">
+                            <a href="https://durationgroup.wetransfer.com/" class="footer-getintouch-link">
+                                <div class="footer-icon-container">
+                                    <i class="fa fa-file footer-contact-icon"></i>
+                                </div>
+                                <span>Send Us A File</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-images">
+                <div class="">
+                    <img src="../images/logoSmarts.jpg" alt="Smarts logo">
+                </div>
+                <div class="">
+                    <img src="../images/logoBFRC.jpg" alt="BFRC logo">
+                </div>
+                <div class="">
+                    <img src="../images/bsimark.png" alt="BSI logo">
+                </div>
+                <div class="">
+                    <img src="../images/logoMADE.jpg" alt="Made in UK">
+                </div>
+                <div>
+                    <img src="../images/logoALUK.jpg" alt="ALUK">
+                </div>
+            </div>
+            <div class="footer-paragraphs">
+                <div class="footer-proprietors-container">
+                    <p>Proprietors: Quailfalcon Limited. Registered in England and Wales under company number 1913793. VAT registration number GB545958986. Reg. Office: Thames Development, Charfleets Road, Canvey Island, Essex SS8 0PQ. Company Director: G. Chelton</p>
+                </div>
+                <div class="footer-terms-container">
+                    <p>We reserve the right to change specifications. <a href="https://www.duration.co.uk/terms-and-conditions.asp">Terms & Conditions</a>. We continuously wish to improve and we kindly inform you that all incoming and outgoing phone calls may be recorded for quality and training purposes.</p>
+                </div>
+            </div>
+            <div class="footer-copyright-container">
+                <p>©2025 Duration Windows</p>
+            </div>
+        </div>
+    </div>
+    <script src="../js/topbar-dropdown.js"></script>
 </body>
 </html>
