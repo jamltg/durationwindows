@@ -137,9 +137,6 @@
     text-decoration: none;
 }
 
-
-
-
 .technical-docs-nav-desktop{
     max-width:1200px;
     margin:auto;
@@ -177,7 +174,8 @@
 
 .technical-docs-content-container {
     background:#f0f0f0;
-    padding:5rem 0;
+    padding-top:2rem;
+    padding-bottom:5rem;
 }
 
 .technical-docs-content {
@@ -193,6 +191,12 @@
     align-items: center;
     gap:2rem;
     padding:3rem 0;
+}
+
+.technical-docs-box-container-w-cat {
+    display:flex;
+    flex-direction: column;
+    gap:2rem;
 }
 
 .technical-docs-box {
@@ -215,13 +219,18 @@
     margin:auto;
 }
 
+.technical-docs-box-w-cat a {
+    text-decoration: none;
+}
+
 .technical-docs-box-number {
     position: absolute;
     top: -18px;
     left: 50%;
     transform: translateX(-50%);
-    background: var(--desktop-secondary-color, #007bff);
-    color: white;
+    border:2px solid #a9a9a9;
+    background: #fff;
+    color: #a9a9a9;
     font-weight: bold;
     width: 40px;
     height: 40px;
@@ -236,8 +245,20 @@
     border:1px solid var(--border-accent-color);
 }
 
+.technical-docs-box-w-cat:hover {
+    border:1px solid var(--border-accent-color);
+}
+
 .technical-docs-box:hover .technical-docs-box-number {
     border:3px solid var(--border-accent-color);
+    background:var(--desktop-secondary-color);
+    color:#fff;
+}
+
+.technical-docs-box-w-cat:hover .technical-docs-box-number {
+    border:3px solid var(--border-accent-color);
+    background:var(--desktop-secondary-color);
+    color:#fff;
 }
 
 .technical-docs-box-img-container {
@@ -286,10 +307,16 @@
     font-size:1.3rem;
     padding: 0 10px;
     text-align:center;
+    padding:3rem 0;
 }
 
     @media screen and (min-width:600px) {
         .technical-docs-box-container {
+            display:grid;
+            grid-template-columns:repeat(2,1fr);
+        }
+
+        .technical-docs-box-container-w-cat {
             display:grid;
             grid-template-columns:repeat(2,1fr);
         }
