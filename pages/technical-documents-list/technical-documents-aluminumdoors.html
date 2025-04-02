@@ -6,12 +6,12 @@
     <title>Technical Support | Technical Document Downloads | Aluminum Windows</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../css/global.css">
-    <link rel="stylesheet" href="../css/topbar.css">
-    <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/header-submenu.css">
-    <link rel="stylesheet" href="../css/technical-documents.css">
-    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../../css/global.css">
+    <link rel="stylesheet" href="../../css/topbar.css">
+    <link rel="stylesheet" href="../../css/header.css">
+    <link rel="stylesheet" href="../../css/header-submenu.css">
+    <link rel="stylesheet" href="../../css/technical-documents.css">
+    <link rel="stylesheet" href="../../css/footer.css">
 </head>
 <body>
     <!--TOPBAR-->
@@ -119,15 +119,15 @@
     <header>
         <div class="mobile-header">
             <a href="#" class="header-mobile-logo">
-                <img src="../images/img_logo.png" alt="Duration Windows Logo">
+                <img src="../../images/img_logo.png" alt="Duration Windows Logo">
             </a>
         </div>
         <div class="desktop-header-container">
             <div class="desktop-header">
                 <a href="https://duration.co.uk/index.asp">
                     <div class="desktop-header-logo">
-                        <img src="../images/40years.png" alt="40 Years">
-                        <img src="../images/img_logo.png" alt="Logo"> 
+                        <img src="../../images/40years.png" alt="40 Years">
+                        <img src="../../images/img_logo.png" alt="Logo"> 
                     </div>
                 </a>
                 <ul class="desktop-header-menu">
@@ -229,11 +229,11 @@
                             DOWNLOADS
                             <i class="fa fa-angle-down"></i>
                         </a>
-                        <!--Dropdown for SERVICES-->
+                        <!--Dropdown for DOWNLOADS-->
                         <div class="header-services-submenu">
                             <ul>
                                 <li><a href="https://www.duration.co.uk/Brochures-AluminiumWindows.asp">SALES BROCHURES</a></li>
-                                <li><a href="/pages/technical-manuals.html">TECHNICAL MANUALS</a></li>
+                                <li><a href="/pages/technical-documents.html">TECHNICAL MANUALS</a></li>
                                 <li><a href="https://www.duration.co.uk/OrderForms-SecondaryGlazing.asp">ORDER FORMS</a></li>
                             </ul>
                         </div>
@@ -268,7 +268,9 @@
                     <a href="/index.html">Home</a>
                 </li>
                 <li>Technical</li>
-                <li>Aluminum Windows</li>
+                <li>
+                    <a href="/technical-manuals.html" class="aluminum-windows-link">Aluminum Windows</a>
+                </li>
             </ul>
         </div>
         <div class="aluminumwindows-arrow">
@@ -280,6 +282,249 @@
                 <div class="technical-docs-paragraph">
                     <p>At Duration Windows, we know that just manufacturing and supplying a product, is not enough. Full technical support is an essential for specifying and installing the correct product for the job, quickly and easily. We provide an full and complete support for all the products that we manufacture from sales to customer services, aftersales and technical support.</p>
                     <p>We have also taken the time to produce detailed technical guides and specification manuals, to help you to specify the correct product for the job. All of these documents are available here on our website for you to print or download. Some of the pdf files may take a while to download - this is due to the 'rich' nature of the documents. Please use the file size as an indicator for the download time.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--TECHNICAL DOCS NAV-->
+    <div class="technical-docs-nav-container">
+        <!--TECHNICAL DOCS NAV FOR MOBILE/TABLET-->
+        <div class="technical-docs-nav-mobile">
+            <div class="technical-docs-nav-dropdown" onclick="technicalDocsToggleDropdown()">
+                <span>DOCUMENTS</span>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul class="technical-docs-nav-dropdown-content" id="technical-docs-nav-dropdown-content">
+                <li>
+                    <a href="/pages/technical-documents.html">WINDOWS</a>
+                </li>
+                <li>
+                    <a href="/pages/technical-documents-list/technical-documents-aluminumdoors.html">DOORS</a>
+                </li>
+                <li>
+                    <a href="/pages/technical-documents-list/technical-documents-aluminumdoors.html">BIFOLDS</a>
+                </li>
+                <li>
+                    <a href="/pages/technical-documents-list/technical-documents-aluminumdoors.html">SECONDARY</a>
+                </li>
+                <li>
+                    <a href="/pages/technical-documents-list/technical-documents-aluminumdoors.html">HERITAGE</a>
+                </li>
+                <li>
+                    <a href="/pages/technical-documents-list/technical-documents-aluminumdoors.html">ROOFS</a>
+                </li>
+                <li>
+                    <a href="/pages/technical-documents-list/technical-documents-aluminumdoors.html">COMMERCIAL</a>
+                </li>
+                <li>
+                    <a href="/pages/technical-documents-list/technical-documents-aluminumdoors.html">OTHER</a>
+                </li>
+            </ul>
+        </div>
+        <!--TECHNICAL DOCS NAV FOR DESKTOP-->
+        <div class="technical-docs-nav-desktop">
+            <ul class="technical-docs-nav-menu-desktop">
+                <li class="technical-docs-nav-list">
+                    <a href="/pages/technical-documents.html">WINDOWS</a>
+                </li>
+                <li class="technical-docs-nav-list active">
+                    <a href="/pages/technical-documents-list/technical-documents-aluminumdoors.html">DOORS</a>
+                </li>
+                <li class="technical-docs-nav-list">
+                    <a href="/pages/technical-documents-list/technical-documents-aluminumdoors.html">BIFOLDS</a>
+                </li>
+                <li class="technical-docs-nav-list">
+                    <a href="/pages/technical-documents-list/technical-documents-aluminumdoors.html">SECONDARY</a>
+                </li>
+                <li class="technical-docs-nav-list">
+                    <a href="/pages/technical-documents-list/technical-documents-aluminumdoors.html">HERITAGE</a>
+                </li>
+                <li class="technical-docs-nav-list">
+                    <a href="/pages/technical-documents-list/technical-documents-aluminumdoors.html">ROOFS</a>
+                </li>
+                <li class="technical-docs-nav-list">
+                    <a href="/pages/technical-documents-list/technical-documents-aluminumdoors.html">COMMERCIAL</a>
+                </li>
+                <li class="technical-docs-nav-list">
+                    <a href="/pages/technical-documents-list/technical-documents-aluminumdoors.html">OTHER</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="technical-docs-content-container">
+        <div class="technical-docs-content">
+            <h2>Front Doors</h2>
+            <div class="technical-docs-box-container">
+                <div class="technical-docs-box">
+                    <div class="technical-docs-box-number">1</div>
+                    <a href="../pdf/Premium Windows_06082024.pdf">
+                        <div class="technical-docs-box-img-container">
+                            <img src="/images/prempremplus_nublue.jpg">
+                        </div>
+                        <div class="technical-docs-box-content">
+                            <h3>Premium & Premium Plus Windows</h3>
+                            <p>Size: 3.2 MB</p>  
+                        </div>
+                    </a>
+                </div>
+                <div class="technical-docs-box">
+                    <div class="technical-docs-box-number">1</div>
+                    <a href="../pdf/Premium Windows_06082024.pdf">
+                        <div class="technical-docs-box-img-container">
+                            <img src="/images/prempremplus_nublue.jpg">
+                        </div>
+                        <div class="technical-docs-box-content">
+                            <h3>Premium & Premium Plus Windows</h3>
+                            <p>Size: 3.2 MB</p>  
+                        </div>
+                    </a>
+                </div>
+                <div class="technical-docs-box">
+                    <div class="technical-docs-box-number">1</div>
+                    <a href="../pdf/Premium Windows_06082024.pdf">
+                        <div class="technical-docs-box-img-container">
+                            <img src="/images/prempremplus_nublue.jpg">
+                        </div>
+                        <div class="technical-docs-box-content">
+                            <h3>Premium & Premium Plus Windows</h3>
+                            <p>Size: 3.2 MB</p>  
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <h2>Duraslide 2000</h2>
+            <div class="technical-docs-box-container">
+                <div class="technical-docs-box">
+                    <div class="technical-docs-box-number">1</div>
+                    <a href="../pdf/Premium Windows_06082024.pdf">
+                        <div class="technical-docs-box-img-container">
+                            <img src="/images/prempremplus_nublue.jpg">
+                        </div>
+                        <div class="technical-docs-box-content">
+                            <h3>Premium & Premium Plus Windows</h3>
+                            <p>Size: 3.2 MB</p>  
+                        </div>
+                    </a>
+                </div>
+                <div class="technical-docs-box">
+                    <div class="technical-docs-box-number">1</div>
+                    <a href="../pdf/Premium Windows_06082024.pdf">
+                        <div class="technical-docs-box-img-container">
+                            <img src="/images/prempremplus_nublue.jpg">
+                        </div>
+                        <div class="technical-docs-box-content">
+                            <h3>Premium & Premium Plus Windows</h3>
+                            <p>Size: 3.2 MB</p>  
+                        </div>
+                    </a>
+                </div>
+                <div class="technical-docs-box">
+                    <div class="technical-docs-box-number">1</div>
+                    <a href="../pdf/Premium Windows_06082024.pdf">
+                        <div class="technical-docs-box-img-container">
+                            <img src="/images/prempremplus_nublue.jpg">
+                        </div>
+                        <div class="technical-docs-box-content">
+                            <h3>Premium & Premium Plus Windows</h3>
+                            <p>Size: 3.2 MB</p>  
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <h2>Premium Slide</h2>
+            <div class="technical-docs-box-container">
+                <div class="technical-docs-box">
+                    <div class="technical-docs-box-number">1</div>
+                    <a href="../pdf/Premium Windows_06082024.pdf">
+                        <div class="technical-docs-box-img-container">
+                            <img src="/images/prempremplus_nublue.jpg">
+                        </div>
+                        <div class="technical-docs-box-content">
+                            <h3>Premium & Premium Plus Windows</h3>
+                            <p>Size: 3.2 MB</p>  
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <h2>Penthouse Plus (Slide)</h2>
+            <div class="technical-docs-box-container">
+                <div class="technical-docs-box">
+                    <div class="technical-docs-box-number">1</div>
+                    <a href="../pdf/Premium Windows_06082024.pdf">
+                        <div class="technical-docs-box-img-container">
+                            <img src="/images/prempremplus_nublue.jpg">
+                        </div>
+                        <div class="technical-docs-box-content">
+                            <h3>Premium & Premium Plus Windows</h3>
+                            <p>Size: 3.2 MB</p>  
+                        </div>
+                    </a>
+                </div>
+                <div class="technical-docs-box">
+                    <div class="technical-docs-box-number">1</div>
+                    <a href="../pdf/Premium Windows_06082024.pdf">
+                        <div class="technical-docs-box-img-container">
+                            <img src="/images/prempremplus_nublue.jpg">
+                        </div>
+                        <div class="technical-docs-box-content">
+                            <h3>Premium & Premium Plus Windows</h3>
+                            <p>Size: 3.2 MB</p>  
+                        </div>
+                    </a>
+                </div>
+                <div class="technical-docs-box">
+                    <div class="technical-docs-box-number">1</div>
+                    <a href="../pdf/Premium Windows_06082024.pdf">
+                        <div class="technical-docs-box-img-container">
+                            <img src="/images/prempremplus_nublue.jpg">
+                        </div>
+                        <div class="technical-docs-box-content">
+                            <h3>Premium & Premium Plus Windows</h3>
+                            <p>Size: 3.2 MB</p>  
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <h2>Penthouse Plus (Lift & Slide)</h2>
+            <div class="technical-docs-box-container">
+                <div class="technical-docs-box">
+                    <div class="technical-docs-box-number">1</div>
+                    <a href="../pdf/Premium Windows_06082024.pdf">
+                        <div class="technical-docs-box-img-container">
+                            <img src="/images/prempremplus_nublue.jpg">
+                        </div>
+                        <div class="technical-docs-box-content">
+                            <h3>Premium & Premium Plus Windows</h3>
+                            <p>Size: 3.2 MB</p>  
+                        </div>
+                    </a>
+                </div>
+                <div class="technical-docs-box">
+                    <div class="technical-docs-box-number">1</div>
+                    <a href="../pdf/Premium Windows_06082024.pdf">
+                        <div class="technical-docs-box-img-container">
+                            <img src="/images/prempremplus_nublue.jpg">
+                        </div>
+                        <div class="technical-docs-box-content">
+                            <h3>Premium & Premium Plus Windows</h3>
+                            <p>Size: 3.2 MB</p>  
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <h2>Room Divider</h2>
+            <div class="technical-docs-box-container">
+                <div class="technical-docs-box">
+                    <div class="technical-docs-box-number">1</div>
+                    <a href="../pdf/Premium Windows_06082024.pdf">
+                        <div class="technical-docs-box-img-container">
+                            <img src="/images/prempremplus_nublue.jpg">
+                        </div>
+                        <div class="technical-docs-box-content">
+                            <h3>Premium & Premium Plus Windows</h3>
+                            <p>Size: 3.2 MB</p>  
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -334,7 +579,7 @@
                             </a>
                         </li>
                         <li class="footer-useful-links">
-                            <a href="https://duration.co.uk/TechnicalDocuments-AluminiumWindows.asp" class="useful-links-link">
+                            <a href="/pages/technical-documents.html" class="useful-links-link">
                                 Technical Downloads
                             </a>
                         </li>
@@ -467,19 +712,19 @@
             </div>
             <div class="footer-images">
                 <div class="">
-                    <img src="../images/logoSmarts.jpg" alt="Smarts logo">
+                    <img src="../../images/logoSmarts.jpg" alt="Smarts logo">
                 </div>
                 <div class="">
-                    <img src="../images/logoBFRC.jpg" alt="BFRC logo">
+                    <img src="../../images/logoBFRC.jpg" alt="BFRC logo">
                 </div>
                 <div class="">
-                    <img src="../images/bsimark.png" alt="BSI logo">
+                    <img src="../../images/bsimark.png" alt="BSI logo">
                 </div>
                 <div class="">
-                    <img src="../images/logoMADE.jpg" alt="Made in UK">
+                    <img src="../../images/logoMADE.jpg" alt="Made in UK">
                 </div>
                 <div>
-                    <img src="../images/logoALUK.jpg" alt="ALUK">
+                    <img src="../../images/logoALUK.jpg" alt="ALUK">
                 </div>
             </div>
             <div class="footer-paragraphs">
@@ -495,6 +740,7 @@
             </div>
         </div>
     </div>
-    <script src="../js/topbar-dropdown.js"></script>
+    <script src="../../js/topbar-dropdown.js"></script>
+    <script src="../../js/technical-docs-dropdown.js"></script>
 </body>
 </html>
