@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.downloads-news-container {
+    width:100%;
+    background-color: var(--desktop-secondary-color);
+    padding:3rem 0;
+}
+
+.downloads-news {
+    padding:0 10px;
+    max-width: 1200px;
+    margin:auto; 
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:1rem;
+    flex-wrap: wrap;
+}
+
+.downloads-news-card {
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    height:100%;
+}
+
+.downloads-news-card-link {
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    height:100%;
+    background-color:#fff;
+    text-decoration: none;
+}
+
+.downloads-news-card-img img{
+    height:180px;
+    width:100%;
+}
+
+.downloads-news-card-content {
+    text-align:center;
+    padding:1rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:1rem;
+    height:110px;
+}
+
+.downloads-news-card-content h3{
+    width:100%;
+    color:#000;
+}
+
+.downloads-news-card-content span{
+    color:#767676;
+}
+
+
+@media screen and (min-width:450px) {
+    .downloads-news {
+        display:flex;
+        flex-direction: row;
+    }
+
+    .downloads-news-card {
+        width: 300px;
+    }
+}
+
+@media (min-width: 900px) {
+    .downloads-news-card {
+        flex: 1 1 45%; /* Slightly reduce size to balance spacing */
+        max-width: 45%; /* Fits comfortably with margins/gaps */
+    }
+
+    .downloads-news {
+        justify-content: space-evenly; /* Centers the cards evenly */
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .downloads-news-card {
+        display:flex;
+        flex-direction: row; /* Four cards per row */
+        max-width:250px; /* Ensures no card exceeds 25% width */
+    }
+
+    .downloads-news-card-content {
+        text-align:left;
+    }
+
+    .downloads-news-card-content span {
+        font-size:0.7rem;
+    }
+}
+
