@@ -76,6 +76,10 @@
 }
 
 @media (min-width: 900px) {
+    .downloads-news {
+        max-width:800px;
+    }
+
     .downloads-news-card {
         flex: 1 1 45%; /* Slightly reduce size to balance spacing */
         max-width: 45%; /* Fits comfortably with margins/gaps */
@@ -87,7 +91,11 @@
 }
 
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
+    .downloads-news {
+        max-width:1200px;
+    }
+
     .downloads-news-card {
         display:flex;
         flex-direction: row; /* Four cards per row */
