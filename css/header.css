@@ -23,6 +23,7 @@
 
 .desktop-header-container{
     display:none;
+    z-index:1000;
 }
 
 .desktop-header {
@@ -39,7 +40,6 @@
     align-items: center;
     padding: 0px 10px;
     gap:1.7rem;
-    /* height:105px; */
 }
 
 /* Invisible hover bridge */
@@ -85,7 +85,6 @@
 }
 
 .desktop-header-menu a {
-    display: relative;
     display:flex;
     align-items: center;
     color: white;
