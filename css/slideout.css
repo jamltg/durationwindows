@@ -1,4 +1,5 @@
 .slideout {
+    display:none;
     position:fixed;
     right:-35px;
     top:10rem;
@@ -7,4 +8,11 @@
 
 .slideout li{
     list-style: none;
+}
+
+
+@media screen and (min-width:1024px) {
+    .slideout {
+        display:block;
+    }
 }
