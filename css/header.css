@@ -136,14 +136,25 @@
   }
 
 
-  .header-products-mainLink::after {
+  /* .header-products-mainLink::after {
     content: "";
     position: absolute;
     left: 0;
-    bottom: -10px; /* Extends the hover effect below */
+    bottom: -10px; 
     width: 100%;
-    height: 20px; /* Adjust to control hover area */
-    background: transparent; /* Invisible but clickable */
+    height: 20px; 
+    background: red; 
+} */
+
+.desktop-nav-container::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 50px; /* Just enough hover buffer */
+    background: transparent;
+    pointer-events: auto;
 }
 
 .header-products-mainLink:hover,

@@ -8,6 +8,11 @@
 
 .slideout li{
     list-style: none;
+    transition: transform 0.3s ease
+}
+
+.slideout li:hover {
+    transform: translateX(-5px); /* Move the item a bit to the left */
 }
 
 

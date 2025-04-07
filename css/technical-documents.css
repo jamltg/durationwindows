@@ -279,13 +279,17 @@
 
 .technical-docs-box-content {
     max-width:170px;
-    height:80px;
+    height:90px;
     margin:auto;
     display:flex;
     flex-direction: column;
     text-align:center;
     padding-top:1.5rem;
     justify-content: space-between;
+    text-align: center;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
 }
 
 .technical-docs-box a{
@@ -293,8 +297,16 @@
 }
 
 .technical-docs-box-content h3 {
-    font-size:0.9rem;
-    color:#000;
+    font-size: 0.75rem;
+    color: #000;
+    line-height: 1.3;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    flex-grow: 1;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .technical-docs-box-content p {

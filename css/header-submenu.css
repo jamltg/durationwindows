@@ -5,7 +5,7 @@
   opacity: 0;
   transition: opacity 0.2s ease, visibility 0.2s ease;
   position: absolute;
-  top: 100%; /* Moves it below the invisible area */
+  top: calc(100% + 45px);
   left: -200px;
   background-color: var(--desktop-primary-color);
   padding: 20px;
