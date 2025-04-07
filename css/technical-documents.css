@@ -310,6 +310,20 @@
     padding:3rem 0;
 }
 
+.technical-docs-paragraph-form {
+    padding:1.5rem 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width:600px;
+}
+
+.technical-docs-paragraph-form p {
+    color: #535453;
+    text-align: left;
+    line-height: 1.8rem;
+}
+
     @media screen and (min-width:600px) {
         .technical-docs-box-container {
             display:grid;
